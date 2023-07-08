@@ -1,0 +1,11 @@
+[project]
+name = "py_monitor_ddc"
+description = "Python wrapper for monitorcontrol package"
+version = "0.0.1"
+authors = [
+  { name = "Patryk Koscik", email = "koscikpatryk@gmail.com" }
+]
+dependencies = [
+  'monitorcontrol == 3.0.*',
+  'typer == 0.9.*'
+]
